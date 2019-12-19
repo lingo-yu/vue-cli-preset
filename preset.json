@@ -1,18 +1,18 @@
 {
-      "useConfigFiles": true,
-      "plugins": {
+    "useConfigFiles": true,
+    "plugins": {
         "@vue/cli-plugin-babel": {},
         "@vue/cli-plugin-router": {
-          "historyMode": false
+            "historyMode": false
         },
         "@vue/cli-plugin-vuex": {},
         "@vue/cli-plugin-eslint": {
-          "config": "standard",
-          "lintOn": [
-            "save",
-            "commit"
-          ]
+            "config": "standard",
+            "lintOn": [
+                "save",
+                "commit"
+            ]
         }
-      },
-      "cssPreprocessor": "node-sass"
-    }
+    },
+    "cssPreprocessor": "node-sass"
+}
